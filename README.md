@@ -1,8 +1,8 @@
 # python-tutorial
 
 
-##Helpful tips
-1. #####To generate requirements file
+## Helpful tips
+##### To generate requirements file
 
 ```python
 pip freeze > requirements.txt
