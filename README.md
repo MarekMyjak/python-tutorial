@@ -7,10 +7,9 @@
 - PyCharm
 
 ## How to start development
-1. Go to https://github.com/MarekMyjak/python-tutorial
-2. Clone project, you should use PyCharm, following this [instruction](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo)
-3. Run app.py, preferable from IDE `Shift + F10`
-4. Go to `http://127.0.0.1:5000/` and check result
+1. Clone project, you should use PyCharm, following this [instruction](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo)
+2. Run app.py, preferable from IDE `Shift + F10`
+3. Go to `http://127.0.0.1:5000/` and check result
 
 ## How to run application on heroku
 1. Login to heroku
