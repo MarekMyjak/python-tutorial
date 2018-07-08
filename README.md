@@ -36,3 +36,13 @@ Each module are similar, when creating a new module, it's best to take a look at
 ```html
     <a href="/new_module_name">New module name</a>
 ```
+
+## Github
+###Must have
+https://www.jetbrains.com/help/idea/sync-with-a-remote-repository.html
+https://www.jetbrains.com/help/idea/commit-and-push-changes.html
+https://www.jetbrains.com/help/idea/manage-branches.html
+
+###Later
+https://www.jetbrains.com/help/idea/apply-changes-from-one-branch-to-another.html
+https://www.jetbrains.com/help/idea/resolve-conflicts.html
