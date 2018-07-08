@@ -1,14 +1,17 @@
 <html>
-    <head>
-        {% if title %}
-        <title>{{ title }}</title>
-        {% else %}
-        <title>Welcome to Python Tutorial</title>
-        {% endif %}
-    </head>
-    <body>
-        <div>Python Tutorial: <a href="/index">Home</a></div>
-        <hr>
-        {% block content %}{% endblock %}
-    </body>
+<head>
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>Welcome to Python Tutorial</title>
+    {% endif %}
+</head>
+<body>
+<div>Python Tutorial:
+    <a href="/index">Home</a>
+    <a href="/new_module">New module</a>
+</div>
+<hr>
+{% block content %}{% endblock %}
+</body>
 </html>

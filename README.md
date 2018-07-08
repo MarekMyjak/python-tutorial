@@ -21,3 +21,18 @@
 7. Select branch
 8. Click Deploy
 9. To check app online click Open App
+
+## How to add new module
+Each module are similar, when creating a new module, it's best to take a look at `new_module` package
+1. Copy `new_module` package, and name the new module
+2. Replace all occurrences of `new_module` with new module name
+3. Rename template file to new module name
+4. Register new module in `createApp` method
+```python
+    from application.new_module_name import new_module_name
+    app.register_blueprint(new_module_name)
+``` 
+5. Add link to new module in `base.html`
+```html
+    <a href="/new_module_name">New module name</a>
+```
