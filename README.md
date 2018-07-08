@@ -2,7 +2,7 @@
 
 ## Requirements
 - python 3
-- github account
+- github account + git
 - heroku account
 - PyCharm
 
