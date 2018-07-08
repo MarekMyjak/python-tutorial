@@ -10,6 +10,9 @@ def create_app():
     from application.new_module import new_module
     app.register_blueprint(new_module)
 
+    from application.animals import animals
+    app.register_blueprint(animals)
+
     return app
 
 
