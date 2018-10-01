@@ -13,6 +13,9 @@ def create_app():
     from application.animals import animals
     app.register_blueprint(animals)
 
+    from application.hangman import hangman
+    app.register_blueprint(hangman)
+
     return app
 
 
